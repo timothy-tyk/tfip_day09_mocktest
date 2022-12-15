@@ -12,6 +12,10 @@ public class HttpClientConnection implements Runnable{
   private Socket client;
   
 
+  public HttpClientConnection(Socket socket, String[] directories) {
+  }
+
+
   @Override
   public void run(){
     try {

@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Main {
   public static void main(String[] args) {
-    Integer PORT=3000;
+    Integer PORT=3001;
     String[] directories = {"./target"};
 
     for(Integer i=0;i<args.length;i++){
